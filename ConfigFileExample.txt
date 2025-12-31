@@ -1,0 +1,7 @@
+Width,Height
+numofShelves
+numofInput
+numofOutput
+numofCharging
+numofRobots capacityofRobot1 ......
+speedofRobot1 ......

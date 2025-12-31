@@ -1,0 +1,30 @@
+# Compiled class files
+target/
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Database files
+*.db
