@@ -73,19 +73,19 @@ public class WarehouseGrid extends JPanel implements ActionListener {
 
         // 绘制入库柜台 - 缩放图标到 cellSize
         for (Point inbound : inboundCounters) {
-            Image img = new ImageIcon("images/arrow-25.png").getImage();
+            Image img = new ImageIcon("src/main/resources/images/arrow-25.png").getImage();
             g2d.drawImage(img, inbound.x * cellSize, inbound.y * cellSize, cellSize, cellSize, null);
         }
 
         // 绘制出库柜台 - 缩放图标到 cellSize
         for (Point outbound : outboundCounters) {
-            Image img = new ImageIcon("images/arrow-25.png").getImage();
+            Image img = new ImageIcon("src/main/resources/images/arrow-25.png").getImage();
             g2d.drawImage(img, outbound.x * cellSize, outbound.y * cellSize, cellSize, cellSize, null);
         }
 
         // 绘制充电桩 - 缩放图标到 cellSize
         for (Point charging : chargingStations) {
-            Image img = new ImageIcon("images/plug-24.png").getImage();
+            Image img = new ImageIcon("src/main/resources/images/plug-24.png").getImage();
             g2d.drawImage(img, charging.x * cellSize, charging.y * cellSize, cellSize, cellSize, null);
         }
     }

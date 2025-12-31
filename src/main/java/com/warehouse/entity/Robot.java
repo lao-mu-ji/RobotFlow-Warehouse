@@ -58,7 +58,7 @@ public class Robot implements Runnable {
         this.chargingStations = chargingStations;
         this.robotThread = new Thread(this);
         this.running = true;
-        this.image = new ImageIcon("images/" + name + "-green.png").getImage();
+        this.image = new ImageIcon("src/main/resources/images/" + name + "-green.png").getImage();
         this.columns = gridWidth;
         this.rows = gridHeight;
         this.shelves = shelves;
@@ -136,7 +136,7 @@ public class Robot implements Runnable {
         } else {
             suffix = "-red.png";
         }
-        image = new ImageIcon("images/" + name + suffix).getImage();
+        image = new ImageIcon("src/main/resources/images/" + name + suffix).getImage();
     }
 
     private void checkChargeNeeded() {
